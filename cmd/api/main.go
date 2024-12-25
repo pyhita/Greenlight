@@ -11,6 +11,9 @@ import (
 
 const version = "1.0.0"
 
+// Define an envelope type.
+type envelope map[string]interface{}
+
 type config struct {
 	port int
 	env  string
